@@ -1,4 +1,4 @@
-# brocoly-site
+# BROCO.ly
 
 Broco.ly site for info about our team and projects already made. 
 
