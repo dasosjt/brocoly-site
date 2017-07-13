@@ -5,45 +5,41 @@ class Team extends React.Component{
   render(){
     return (
     <div>
-    	<div className="row">
-    		<Card 
-    			className="col s4 m4" 
-    			header=
-    			{
-    				<CardTitle>
-    					Nombre1
-    				</CardTitle>
-    			}>
-    			Description Integrante 1
-    		</Card>
-    		<Card 
-    			className="col s4 m4" 
-    			header=
-    			{
-    				<CardTitle>
-    					Nombre2
-    				</CardTitle>
-    			}>
-    			Description Integrante 2
-    		</Card>
-    		<Card 
-    			className="col s4 m4" 
-    			header=
-    			{
-    				<CardTitle>
-    					Nombre3
-    				</CardTitle>
-    			}>
-    			Description Integrante 3
-    		</Card>
-    		
-    	</div>
+      <Row>
+        <Col s={1} m={4}>
+            <Card className='small'>
+                <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</span>
+            </Card>
+        </Col>
+        <Col s={4} m={4}>
+            <Card className='small'>
+                <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</span>
+            </Card>
+        </Col>
+        <Col s={7} m={4}>
+            <Card className='small'>
+                <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</span>
+            </Card>
+        </Col>
+      </Row>	
+      <Row>
+        <Col s={1} m={4}>
+            <Card className='small'>
+                <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</span>
+            </Card>
+        </Col>
+        <Col s={4} m={4}>
+            <Card className='small'>
+                <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</span>
+            </Card>
+        </Col>
+        <Col s={7} m={4}>
+            <Card className='small'>
+                <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</span>
+            </Card>
+        </Col>
+      </Row>
     </div>
-    	
-    	
- 
-    	
-	
     )
   };
 };

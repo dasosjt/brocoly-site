@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     publicPath: "/assets/"
   },
+  devServer: {
+    historyApiFallback: true
+  },
   module: {
     loaders: [{
         test: /\.js$/,
